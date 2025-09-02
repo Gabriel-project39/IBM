@@ -4,30 +4,68 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>IBM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
      <!--NAVBAR-->
-     <nav class="navbar">
+     <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <a class="navbar-brand" href="#"></a>
+        <div class="logo">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKIAAACUCAMAAAAnDwKZAAAAZlBMVEX///8AAADq6urHx8dRUVFbW1t8fHzPz8+lpaXAwMBNTU04ODjj4+Pb29tXV1cuLi5ycnIKCgry8vIXFxfV1dX4+PgREREcHBxqamq4uLgjIyNISEiEhIRlZWWXl5c+Pj6NjY2vr6/y5X8eAAAEiUlEQVR4nO2ZbZeqIBDHCR8zSSPJUjP7/l/ygg+AgJa77Z5775nf2RcrM8A/hJEBhAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgh6HeAgU34tt+kQLP2vEs15vHjL7w3uplj9FLit0CAe9gv2TkVH5+0zT4DpfI6Ct0+Nx+UGJPS6d2Aoe1Mwax/prEaKn35B2Ju+y5Moq7+Zu+uVzekEjt+TEg3pJj8liTaZQRrdhGiKO1d+Yi8AlIHTg5NvwtRYnbOPfMRTvN0WV6aj3lLo9k/1ri4oo+vrVcejzkXtG73V2ueITddb8TdDZIDBcl7grZUftlieSU9Wi1fD9JkjrkEr1TVZaXyyuJjxSh+7k8ny8nl/oeejQs51pweONFs4L0RAo8INotSMGJXsFfZ+9ouxaqH9OS9tAVbcDnSYNkoraMbS1tnSzED1UjngppI11HAtIboodRXjebJVZqIlvGxjH9Z0FESbxba2mwXa3y6+9K9FYkih0TwofvS8TJYSKzjF0mber14FLWuMu9AM2l60TJIxJ6WsVZaHXzilRh61c26qqBna56FWoX/49bHBorLKMXr9Fq48FuDofC2cAbn5U5abmyXFw5hyLXNq7U9akOUeUovW+WqH2kLWPj6EGtTH1rra1oXy7ig8oI/LP6ZZslqrrbRvEx+8hqoxioH6babtWWZPMoMi3/tYzFcja9n69/FklDRO0k3MPqfzODBX4FGuYT9pfpmS9yfc48WSstHcON4RyiVD20WyW++422mcU3fUVTlBuuLd/jy4ft24gvB52q0Dw1iUdqHT8QRL4TdNZC96rEXa2FHS3o8FFk5cyRR1CiPW2VyLRDDMtI3joy6ZspZHHBzFOUdHZUSLZKBD4Bvh8nfMvY+tKmQgVVhZ181bSRpaGYordENpuICZQGstIv5C5UFR7kvJoHHT4ZjU//bwQdp0R1YmxK1M5R+ppEbSO25y51NlFZxq6SNvV6qKyQnVV6lU+u1XDiFJfjc9n/DHKQLW2Oi4gobP3Khp01VGRMZdmwBWLymc0fiZ0i/cvgJbiNLRrnMEcz48hOTcyfZlU5pPXrpF0YWPzwnSRiw3+r3UbDNeQC8sQsHDTi+2AYekuPRt26n8b78lng4lm5t7kLh6c8kvAu4iXjHLGGrEsNfxzGIRyM8ZRYZ5Vij+9lVCTaiFTOcfyExMIl8ThKHLY7Y9/aTkeT+IjQPWzDBt2cCc0HJPZHaZbEZJqMIhO8s5VRxD5iYq48sPj7K9kHiF3jfcwjZWBvs/4Kol5iLF5b4pJIr6EbsTfw8gWjIh8b7UyDusFsVZ6CrepiER8oy1OeISH2cB19L87F7L252I3tJKbBl73F6uaCWPWFif+Ehq+nsOic25/vLZdafi0XV7S42pG9uVd0mvQ326ytzUv2UeLpdBk5D5SCc/1C4ukQNFpm5fN2dDSJTCWyXKLh1g8wviZ8udSh+4aDeQt3KaL7dOWkJCKzBs1rlT53mfpQ/5m9eGOU8eIuhiMUAAAAAAAAAAAAAAAAAAAAAAAAAAAA4If5A2PvYBOFyO+9AAAAAElFTkSuQmCC">
+
+        <!-- Toggle for mobile -->
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
         <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#hero">AI</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#hero">Hybrid Cloud</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#hero">Products</a>
-        </li>
+        <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        AI
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+        <li><a class="dropdown-item" href="#">Overview</a></li>
+        <li><a class="dropdown-item" href="#">Watsonx</a></li>
+        <li><a class="dropdown-item" href="#">Agents</a></li>
+      </ul>
+    </li>
+        <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Hybrid Cloud
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+        <li><a class="dropdown-item" href="#">Overview</a></li>
+        <li><a class="dropdown-item" href="#">Consolting</a></li>
+        <li><a class="dropdown-item" href="#">Cloud platform</a></li>
+      </ul>
+    </li>
+        <!-- Dropdown menu -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Products
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+        <li><a class="dropdown-item" href="#">Web Design</a></li>
+        <li><a class="dropdown-item" href="#">SEO</a></li>
+        <li><a class="dropdown-item" href="#">Hosting</a></li>
+      </ul>
+    </li>
          <li class="nav-item">
           <a class="nav-link" href="#hero">Consulting</a>
         </li>
          <li class="nav-item">
-          <a class="nav-link" href="#hero">Support</a>
-        </li>
+          <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Support
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+        <li><a class="dropdown-item" href="#">Web Design</a></li>
+        <li><a class="dropdown-item" href="#">SEO</a></li>
+        <li><a class="dropdown-item" href="#">Hosting</a></li>
+      </ul>
+    </li>
         <li class="nav-item">
           <a class="nav-link" href="#hero">Think</a>
         </li>
