@@ -1,0 +1,31 @@
+:root{
+    --font-family: 'Poppins', sans-serif;
+    --color-bg: #0b0c10;
+    --color-text: #d8d5d0; 
+  --color-accent: #9ea8ac; 
+  --nav-height: 70px;    /
+}
+
+body{
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+}
+
+/* ==Navbar Style== */
+.logo {
+    padding: 10px;
+    margin-top: -20px;
+    margin-left: -100px;
+   
+}
+
+.logo img{
+    height: 90px;
+}
+
+.navbar{
+    background-color: var(--color-text);
+    padding: 10px 40px;
+
+}
