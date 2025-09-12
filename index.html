@@ -76,7 +76,20 @@
         </ul>
 
         <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-search"></i></a></li>
+  <!-- Search icon -->
+  <li class="nav-item">
+    <a class="nav-link" href="#" id="searchToggle">
+      <i class="bi bi-search"></i>
+    </a>
+  </li>
+
+  <!-- Hidden search bar -->
+  <li class="nav-item d-none" id="searchBar">
+    <input type="text" class="form-control ms-2" placeholder="Search IBM.com">
+  </li>
+
+
+        <ul class="navbar-nav">
         <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-chat-dots"></i></a></li>
         <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-globe"></i></a></li>
         <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-person"></i></a></li>
