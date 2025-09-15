@@ -64,5 +64,44 @@
 }
 
 
+body {
+  background: #fff;
+  font-family: Arial, sans-serif;
+}
+
+#banner {
+  position: relative;
+  background: #0066ff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.sidebar {
+  position: absolute;
+  top: 100px;
+  right: 50px;
+  width: 250px;
+}
+
+.sidebar a {
+  display: block;
+  color: #0d6efd;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #0d6efd;
+}
 
 
