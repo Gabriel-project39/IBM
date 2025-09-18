@@ -70,12 +70,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-#banner {
-  position: relative;
-  background: #0066ff;
-  padding: 1rem;
-  border-radius: 0.5rem;
-}
 
 .sidebar {
   position: absolute;
@@ -91,19 +85,7 @@ body {
   margin-bottom: 0.5rem;
 }
 
-.dot {
-  height: 12px;
-  width: 12px;
-  margin: 0 5px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  cursor: pointer;
-}
 
-.dot.active {
-  background-color: #0d6efd;
-}
 
 img{
 
@@ -137,3 +119,4 @@ margin-left: -150px;
     .subtitle:hover {
       text-decoration: underline;
     }
+
