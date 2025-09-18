@@ -110,3 +110,30 @@ img{
 margin-left: -150px;
 }
 
+ .card {
+      border: none;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      transition: box-shadow 0.3s ease;
+    }
+    .card:hover {
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .icon-box {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #6c63ff;
+    }
+    .section-title {
+      font-size: 2rem;
+      margin-top: 3rem;
+      font-weight: 600;
+    }
+    .subtitle {
+      color: #6c63ff;
+      font-weight: 500;
+      text-decoration: none;
+    }
+    .subtitle:hover {
+      text-decoration: underline;
+    }
