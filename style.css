@@ -19,6 +19,7 @@
   height: 10px; /* small enough to align */
   vertical-align: middle;
   width: 10px;
+  
 }
 
 
@@ -104,4 +105,8 @@ body {
   background-color: #0d6efd;
 }
 
+img{
+
+margin-left: -150px;
+}
 
