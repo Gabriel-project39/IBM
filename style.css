@@ -144,4 +144,35 @@ margin-left: -150px;
       background-color: #0b5ed7;
     }
     
-
+.service-box {
+      border: 1px solid #eaeaea;
+      padding: 2rem 1.5rem;
+      text-align: left;
+      transition: background 0.3s ease;
+      height: 100%;
+      position: relative;
+    }
+    .service-box:hover {
+      background: #70a1ec;
+    }
+    .service-icon {
+      font-size: 2rem;
+      color: #6c63ff;
+      margin-bottom: 1rem;
+    }
+    .arrow {
+      position: absolute;
+      bottom: 1rem;
+      right: 1rem;
+      color: #6c63ff;
+      font-weight: bold;
+    }
+    .inside-links a {
+      display: block;
+      margin-top: 0.5rem;
+      color: #0d6efd;
+      text-decoration: none;
+    }
+    .inside-links a:hover {
+      text-decoration: underline;
+    }
