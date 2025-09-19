@@ -214,3 +214,70 @@ margin-left: -150px;
 .arrow-grey {
   color: #bcbec1;
 }
+
+ footer {
+      padding: 40px 0;
+      max-width: 1100px;
+      margin: 0 auto;
+       background-color: #0703039a;
+      color: #f0f0f015;
+    }
+    .ibm-logo {
+      font-weight: bold;
+      font-size: 2rem;
+      line-height: 1;
+      font-family: monospace;
+      color: white;
+      letter-spacing: 3px;
+    }
+
+    .footer-section {
+      margin-bottom: 30px;
+    }
+    .footer-section h5 {
+      font-weight: bold;
+      color: white;
+      margin-bottom: 10px;
+    }
+    .footer-section a {
+      color: #a0a0a0;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 6px;
+    }
+    .footer-section a:hover {
+      color: #007bff;
+      text-decoration: underline;
+    }
+    .footer-bottom {
+      border-top: 1px solid #333333;
+      padding-top: 15px;
+      font-size: 14px;
+      color: #666666;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .footer-bottom a {
+      color: #666666;
+      margin-right: 15px;
+      text-decoration: none;
+    }
+    .footer-bottom a:hover {
+      color: #007bff;
+      text-decoration: underline;
+    }
+    @media (min-width: 768px) {
+      .footer-main {
+        display: flex;
+        gap: 80px;
+      }
+      .logo-column {
+        flex: 1;
+      }
+      .links-columns {
+        display: flex;
+        flex: 5;
+        gap: 60px;
+      }
+    }
