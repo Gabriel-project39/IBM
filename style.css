@@ -177,4 +177,17 @@ margin-left: -150px;
       text-decoration: underline;
     }
 
-    
+    .hover-text {
+  display: none;
+  color: #6c63ff;
+}
+
+/* When hovering on the box, hide normal text */
+.service-box:hover .default-text {
+  display: none;
+}
+
+/* When hovering on the box, show hover text */
+.service-box:hover .hover-text {
+  display: block;
+}
