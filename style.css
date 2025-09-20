@@ -85,6 +85,20 @@ body {
   margin-bottom: 0.5rem;
 }
 
+.side {
+  position: absolute;
+  top: 100px;
+  right: 50px;
+  width: 250px;
+}
+
+/* Medium & small: let it flow under content */
+@media (max-width: 1250px) {
+  .side {
+    position: static;
+    width: 100%;
+  }
+}
 
 
 img{
