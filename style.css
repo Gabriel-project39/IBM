@@ -215,69 +215,44 @@ margin-left: -150px;
   color: #bcbec1;
 }
 
- footer {
-      padding: 40px 0;
-      max-width: 1100px;
-      margin: 0 auto;
-       background-color: #0703039a;
-      color: #f0f0f015;
+  .footer {
+      background-color: #111;
+      color: #fff;
+      padding: 3rem 1rem 1rem;
     }
-    .ibm-logo {
-      font-weight: bold;
-      font-size: 2rem;
-      line-height: 1;
-      font-family: monospace;
-      color: white;
-      letter-spacing: 3px;
+    .footer h6 {
+      font-weight: 600;
+      margin-bottom: 1rem;
     }
-
-    .footer-section {
-      margin-bottom: 30px;
-    }
-    .footer-section h5 {
-      font-weight: bold;
-      color: white;
-      margin-bottom: 10px;
-    }
-    .footer-section a {
-      color: #a0a0a0;
-      text-decoration: none;
+    .footer a {
       display: block;
-      margin-bottom: 6px;
+      color: #bbb;
+      text-decoration: none;
+      margin-bottom: 0.4rem;
+      font-size: 0.9rem;
     }
-    .footer-section a:hover {
-      color: #007bff;
+    .footer a:hover {
+      color: #fff;
       text-decoration: underline;
     }
+    .footer-logo {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 2rem;
+    }
     .footer-bottom {
-      border-top: 1px solid #333333;
-      padding-top: 15px;
-      font-size: 14px;
-      color: #666666;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
+      border-top: 1px solid #333;
+      margin-top: 2rem;
+      padding-top: 1rem;
+      font-size: 0.85rem;
+      color: #aaa;
     }
     .footer-bottom a {
-      color: #666666;
-      margin-right: 15px;
+      color: #aaa;
+      margin-right: 1.5rem;
       text-decoration: none;
     }
     .footer-bottom a:hover {
-      color: #007bff;
+      color: #fff;
       text-decoration: underline;
-    }
-    @media (min-width: 768px) {
-      .footer-main {
-        display: flex;
-        gap: 80px;
-      }
-      .logo-column {
-        flex: 1;
-      }
-      .links-columns {
-        display: flex;
-        flex: 5;
-        gap: 60px;
-      }
     }
