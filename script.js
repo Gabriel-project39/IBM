@@ -15,3 +15,33 @@ document.getElementById('newsletterForm').addEventListener('submit', function(ev
   }
 });
 
+ const chatBtn = document.getElementById('chatBtn');
+    const chatBox = document.getElementById('chatBox');
+    const closeChat = document.getElementById('closeChat');
+    const sendBtn = document.getElementById('sendBtn');
+    const chatBody = document.getElementById('chatBody');
+    const chatInput = document.getElementById('chatInput');
+
+    // Toggle chat open
+    chatBtn.addEventListener('click', () => {
+      chatBox.style.display = "flex";
+      chatBtn.style.display = "none";
+    });
+
+    // Close chat
+    closeChat.addEventListener('click', () => {
+      chatBox.style.display = "none";
+      chatBtn.style.display = "flex";
+    });
+
+    // Send message
+    sendBtn.addEventListener('click', () => {
+      let msg = chatInput.value.trim();
+      if (msg) {
+        let p = document.createElement("p");
+        p.textContent = "You: " + msg;
+        chatBody.appendChild(p);
+        chatInput.value = "";
+        chatBody.scrollTop = chatBody.scrollHeight;
+      }
+    });
