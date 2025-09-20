@@ -106,6 +106,91 @@ img{
 margin-left: -150px;
 }
 
+/* Floating button style */
+    .chat-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #0d6efd;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      cursor: pointer;
+      z-index: 1000;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease;
+    }
+
+    /* Chatbox hidden by default */
+    .chat-box {
+      position: fixed;
+      bottom: 90px;
+      right: 20px;
+      width: 300px;
+      height: 400px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      display: none;
+      flex-direction: column;
+      overflow: hidden;
+      z-index: 1000;
+    }
+
+    /* Chatbox header */
+    .chat-header {
+      background: #0d6efd;
+      color: white;
+      padding: 10px;
+      font-weight: bold;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .chat-header button {
+      background: transparent;
+      border: none;
+      color: white;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+
+    /* Chatbox body */
+    .chat-body {
+      flex: 1;
+      padding: 10px;
+      overflow-y: auto;
+      font-size: 0.9rem;
+    }
+
+    /* Input area */
+    .chat-input {
+      border-top: 1px solid #ddd;
+      padding: 8px;
+      display: flex;
+      gap: 5px;
+    }
+    .chat-input input {
+      flex: 1;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 5px 10px;
+    }
+    .chat-input button {
+      background: #0d6efd;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 5px 12px;
+      cursor: pointer;
+    }
+
  .card {
       border: none;
       text-align: center;

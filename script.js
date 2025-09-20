@@ -14,3 +14,4 @@ document.getElementById('newsletterForm').addEventListener('submit', function(ev
     emailError.style.display = 'none';
   }
 });
+
